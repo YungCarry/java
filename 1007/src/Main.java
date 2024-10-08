@@ -25,12 +25,12 @@ public class Main {
 
         }
 
-        if (vanoszto) {
-            System.out.println("Sajnos nem nyert! ");
+        if (!vanoszto) {
+            System.out.println("Gratulálunk, nyert!");
         }
 
         else {
-            System.out.println("Gratulálunk, nyert :)");
+            System.out.println("Sajnos nem nyert");
         }
     };
 
